@@ -28,6 +28,7 @@
 
 import java.util.Scanner;
 
+
 // First enter the number of words you want to converst to shortforms
 // Then enter the word and press enter.
 
@@ -37,18 +38,34 @@ public class longwords{
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         int n = Integer.parseInt(input);
+        
 
         // Loop to get input number of times specified above
         for (int i = 0; i < n; i++) {
+
+            // Take input
             Scanner newScanner = new Scanner(System.in);
             String stringInput = newScanner.nextLine();
-            Integer stringLength = stringInput.length();
-            
-            System.out.println(stringInput);
-            System.out.println(stringLength);
 
+            // Get String length and 1st and last letter
+            Integer stringLength = stringInput.length();
             char firstLetter = stringInput.charAt(0);
-            System.out.println(firstLetter);
+            char lastLetter = stringInput.charAt(stringLength -1);
+
+            if (stringLength > 9) {
+                // These three construct the shortform
+                System.out.print(firstLetter  + "");
+                System.out.print(stringLength);
+                System.out.print(lastLetter);
+                
+                System.out.println();
+
+                
+            }
+            else {
+                System.out.println(stringInput);
+            }
+
         }
 
     }
