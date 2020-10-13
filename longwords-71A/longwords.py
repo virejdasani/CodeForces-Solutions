@@ -1,3 +1,23 @@
+i = input
+
+for _ in [0] * int(i()):
+    s = i(); l = len(s) - 2; print([s, s[0] + str(l) + s[-1]][l>8])
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
 # Sometimes some words like "localization" or "internationalization" are so long that writing them many times in one text is quite tiresome.
 
 # Let's consider a word too long, if its length is strictly more than 10 characters. All too long words should be replaced with a special abbreviation.
@@ -28,16 +48,3 @@
 
 # First enter the number of words you want to converst to shortforms
 # Then enter the word and press enter.
-
-i = input
-
-for _ in [0] * int(i()):
-    s = i(); l = len(s) - 2; print([s, s[0] + str(l) + s[-1]][l>8])
-
-
-
-    
-    
-    
-
- 
