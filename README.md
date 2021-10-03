@@ -3,6 +3,7 @@
 Theses are solved problemsets from CodeForces.com
 
 ## Contributing
+0. Star the repo
 1. Fork the repo
 2. Add the solution to a problem set in a new folder
 3. Naming the folder:
