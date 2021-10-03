@@ -12,6 +12,7 @@ Example:
 ```
 Watermelon-4A
 ```
+For Problem set names with more than one word, don't use spaces. Use WordCapitalization
 
 4. Inside the folder, in the file, the first line should have a comment with the link to the problem set (Python Example):
 ```
