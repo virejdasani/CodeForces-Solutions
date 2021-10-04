@@ -1,3 +1,4 @@
+# https://codeforces.com/problemset/problem/59/A
 s = str(input())
 d={"UPPER_CASE":0, "LOWER_CASE":0}
 for c in s:
