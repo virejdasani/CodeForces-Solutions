@@ -1,6 +1,6 @@
 # CodeForces
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Theses are solved problemsets from CodeForces.com
@@ -42,8 +42,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/abhi27-web"><img src="https://avatars.githubusercontent.com/u/57997268?v=4?s=100" width="100px;" alt=""/><br /><sub><b>abhi27-web</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=abhi27-web" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/haaaziq"><img src="https://avatars.githubusercontent.com/u/59704449?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohammad Haziq Khan</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=haaaziq" title="Code">💻</a></td>
     <td align="center"><a href="https://danieldelrio.webflow.io/"><img src="https://avatars.githubusercontent.com/u/35568696?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Del Rio</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=daniddelrio" title="Code">💻</a></td>
-        <td align="center"><a href="https://github.com/YusiferZendric"><img src="https://avatars.githubusercontent.com/u/71001844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=YusiferZendric" title="Code">💻</a></td>
-
+    <td align="center"><a href="https://github.com/YusiferZendric"><img src="https://avatars.githubusercontent.com/u/71001844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=YusiferZendric" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KIRTIKUMARKK21"><img src="https://avatars.githubusercontent.com/u/75535691?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kirti_kumar</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=KIRTIKUMARKK21" title="Code">💻</a></td>
   </tr>
 </table>
 
