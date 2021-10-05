@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "andrefqms",
+      "name": "André Filipe Queiroz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29777756?v=4",
+      "profile": "https://github.com/andrefqms",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Hacktoberfest-CodeForces-Solutions",
+  "projectOwner": "virejdasani",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
