@@ -1,4 +1,7 @@
 # CodeForces
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Theses are solved problemsets from CodeForces.com
 
@@ -25,3 +28,23 @@ For Problem set names with more than one word, don't use spaces. Use WordCapital
 5. After doing `git add` and `git commit`, open a Pull Request!
 
 6. This PR will count towards Hacktoberfest!
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/andrefqms"><img src="https://avatars.githubusercontent.com/u/29777756?v=4?s=100" width="100px;" alt=""/><br /><sub><b>André Filipe Queiroz</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=andrefqms" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
