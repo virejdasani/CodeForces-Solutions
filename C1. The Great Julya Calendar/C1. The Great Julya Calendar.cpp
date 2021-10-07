@@ -1,3 +1,6 @@
+Problem Link : https://codeforces.com/contest/331/problem/C1
+
+
 #include <bits/stdc++.h>
 #define ll long long
 #define pb push_back
