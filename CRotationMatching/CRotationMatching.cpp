@@ -1,4 +1,4 @@
-// Problem Link:   https://codeforces.com/contest/1365/problem/C
+// https://codeforces.com/contest/1365/problem/C
 
 
 
