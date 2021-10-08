@@ -1,4 +1,4 @@
-//Problem Link : https://codeforces.com/contest/331/problem/C1
+//https://codeforces.com/contest/331/problem/C1
 
 
 #include <bits/stdc++.h>
