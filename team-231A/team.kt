@@ -31,14 +31,17 @@
 
 import java.util.Scanner
 
+@ExperimentalStdlibApi
 fun main() {
     var input = mutableListOf<Int>()
     val scanner = Scanner(System.`in`)
 
-    print("Enter the number of problems in the contest: ")
+    // print("Enter the number of problems in the contest: ")
     val num = scanner.nextInt()
     for (i in 0..num) {
-        input.add(scanner.nextLine().replace(" ", "").sumOf { it.digitToInt() })
+        input.add(scanner.nextLine()
+            .replace(" ", "")
+            .sumOf { it.digitToInt() })
     }
     scanner.close()
 
