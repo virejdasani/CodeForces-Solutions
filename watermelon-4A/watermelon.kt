@@ -18,15 +18,13 @@
 import java.util.Scanner
 
 fun main() {
-    print("Enter the weight of the watermelon: ")
     val scanner = Scanner(System.`in`)
-    val strInput = scanner.nextLine()
+    val input = scanner.nextInt()
     scanner.close()
 
-    val input = strInput.toInt()
     if (input % 2 == 0 && input > 2) {
-        println("YES")
+        print("YES")
     } else {
-        println("NO")
+        print("NO")
     }
 }
