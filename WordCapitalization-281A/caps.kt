@@ -22,8 +22,8 @@
 
 import java.util.Scanner
 
+@ExperimentalStdlibApi
 fun main() {
-    print("Enter a word: ")
     val scanner = Scanner(System.`in`)
     val strInput = scanner.nextLine()
     scanner.close()
