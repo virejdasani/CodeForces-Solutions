@@ -32,19 +32,17 @@
 import java.util.Scanner
 
 fun main() {
-    var input = mutableListOf<String>()
+    var input = mutableListOf<Int>()
     val scanner = Scanner(System.`in`)
 
     print("Enter the number of problems in the contest: ")
     val num = scanner.nextInt()
     for (i in 0..num) {
-        input.add(scanner.nextLine())
+        input.add(scanner.nextLine().replace(" ", "").sumOf { it.digitToInt() })
     }
     scanner.close()
 
     var solutionCount = 0
-    input.forEach {
-        if (it.replace(" ", "").sumOf { it.digitToInt() } >= 2) solutionCount++
-    }
+    input.forEach { if (it >= 2) solutionCount++ }
     print("$solutionCount")
 }
