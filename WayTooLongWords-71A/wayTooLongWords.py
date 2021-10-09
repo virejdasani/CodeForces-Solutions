@@ -1,3 +1,5 @@
+# https://codeforces.com/problemset/problem/71/A
+
 i = input
 
 for _ in [0] * int(i()):
