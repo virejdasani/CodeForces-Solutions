@@ -1,3 +1,5 @@
+# https://codeforces.com/problemset/problem/231/A
+
 # This will take input for the number of problems the team has
 n = int(input())
 
