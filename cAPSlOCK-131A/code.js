@@ -1,3 +1,6 @@
+// A. cAPS lOCK
+//https://codeforces.com/problemset/problem/131/A
+
 const prompt = require('prompt');
 
 prompt.start();
