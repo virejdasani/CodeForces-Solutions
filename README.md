@@ -1,6 +1,6 @@
 # CodeForces
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Theses are solved problemsets from CodeForces.com
@@ -52,6 +52,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/reganlaurell"><img src="https://avatars.githubusercontent.com/u/27863730?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Regan Laurell</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=reganlaurell" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/shray-jayn"><img src="https://avatars.githubusercontent.com/u/76147471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shray Jain</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=shray-jayn" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/omshaw"><img src="https://avatars.githubusercontent.com/u/62355886?v=4?s=100" width="100px;" alt=""/><br /><sub><b>omshaw</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=omshaw" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vishal-kumar-saw"><img src="https://avatars.githubusercontent.com/u/81320382?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vishal-kumar-saw</b></sub></a><br /><a href="https://github.com/virejdasani/Hacktoberfest-CodeForces-Solutions/commits?author=vishal-kumar-saw" title="Code">💻</a></td>
   </tr>
 </table>
 
