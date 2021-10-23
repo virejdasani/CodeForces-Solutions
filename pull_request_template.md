@@ -4,3 +4,4 @@
 - [ ] You have starred the repo
 - [ ] If you have added a new folder, there are no spaces in the name of the folder
 - [ ] The link to the problem set is present on the first line of the code file
+- [ ] The code in your code file(s) is accepted by the problemset on CodeForces
