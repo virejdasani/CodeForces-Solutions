@@ -47,7 +47,7 @@ func calcLeftTurn(inputArray []int) (turn int) {
 	turn = 0
 	for start < end && inputArray[start] < inputArray[start+1] {
 		turn = turn + 1
-		end = end - 1
+		start = start + 1
 	}
 	return
 }
