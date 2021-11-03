@@ -184,10 +184,19 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "madhavpcm",
+      "name": "Madhav Prabhu C M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59736487?v=4",
+      "profile": "https://github.com/madhavpcm",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Hacktoberfest-CodeForces-Solutions",
+  "projectName": "CodeForces-Solutions",
   "projectOwner": "virejdasani",
   "repoType": "github",
   "repoHost": "https://github.com",
