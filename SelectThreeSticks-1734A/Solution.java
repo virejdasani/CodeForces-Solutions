@@ -1,3 +1,5 @@
+//https://codeforces.com/contest/1734/problem/A
+
 import java.util.Arrays;
 import java.util.Scanner;
 
