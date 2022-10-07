@@ -1,3 +1,5 @@
+//https://codeforces.com/contest/1692/problem/D
+
 #include <iostream>
 #include <bits/stdc++.h>
 #include <cstdlib>
