@@ -211,6 +211,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "parth782",
+      "name": "Parth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75096781?v=4",
+      "profile": "https://github.com/parth782",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -218,5 +227,6 @@
   "projectOwner": "virejdasani",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
