@@ -1,6 +1,6 @@
 # CodeForces
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Theses are solved problemsets from CodeForces.com
@@ -68,6 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/RohanKGP"><img src="https://avatars.githubusercontent.com/u/88491064?v=4?s=100" width="100px;" alt="Rohan Raju Meshram"/><br /><sub><b>Rohan Raju Meshram</b></sub></a><br /><a href="https://github.com/virejdasani/CodeForces-Solutions/commits?author=RohanKGP" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Shizu-ka"><img src="https://avatars.githubusercontent.com/u/58659139?v=4?s=100" width="100px;" alt="Shizuka"/><br /><sub><b>Shizuka</b></sub></a><br /><a href="https://github.com/virejdasani/CodeForces-Solutions/commits?author=Shizu-ka" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/parth782"><img src="https://avatars.githubusercontent.com/u/75096781?v=4?s=100" width="100px;" alt="Parth"/><br /><sub><b>Parth</b></sub></a><br /><a href="https://github.com/virejdasani/CodeForces-Solutions/commits?author=parth782" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
