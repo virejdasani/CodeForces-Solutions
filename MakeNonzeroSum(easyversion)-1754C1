@@ -1,0 +1,184 @@
+// https://codeforces.com/problemset/problem/1754/C1
+
+#include<bits/stdc++.h>
+#define For(i,k,n)                    for (int i = k; i < n; i++)
+#define RFor(i,n, k)                  for (int i = n; i >= k; i--)
+#define pb                            push_back 
+#define sz                            size()
+#define all(vec)                      vec.begin(), vec.end()
+#define int long long int
+#define maxn 100000             //declared for ncrmod function
+using namespace std;
+ 
+//Finding NCR mod p ****************************************************************
+int fac[maxn],invfact[maxn];
+int powerforncr(int x,int y,int mod){
+    int res=1;
+    x=x%mod;
+    while (y > 0){
+        if (y & 1)
+            res = (res%mod * x%mod) % mod;
+ 
+        y = y >> 1; 
+        x = (x%mod * x%mod) % mod;
+    }
+    return res;
+}
+ 
+int modInverse(int n,int mod){
+    return powerforncr(n,mod-2,mod);
+}
+ 
+void ncrmodpPrecompute(int mod){
+    fac[0]=1;
+    invfact[0]=1;
+    for(int i=1;i<maxn;i++){
+        fac[i]=(fac[i-1]%mod * i%mod)%mod;
+        invfact[i]=modInverse(fac[i],mod);
+    }
+}
+ 
+int ncrmod(int n,int r,int mod){
+    if(r<0 or n<0){
+        assert(false);
+    }
+    
+    if(n<r)
+        return 0;
+        
+    if(r==0 or r==n)
+        return 1;
+        
+    return (fac[n] * invfact[r] % mod) * invfact[n-r] % mod;
+}
+ 
+//Finding ncr ******************************************************************************
+int nCr(int n,int r) {
+    int p = 1;
+    int k = 1;
+    if (n-r<r)
+        r=n-r;
+    
+    if(r!=0) {
+        while(r) {
+            k=k*r;
+            p=p*n;
+            int m=__gcd(p,k);
+            p/=m;
+            k/=m;
+            r--;
+            n--;
+        }
+    }
+    else {
+        p=1;
+    }
+    return p;
+}
+ 
+//Checking prime number***********************************************************
+bool isPrime(int n) {
+    if(n==1)
+        return false;
+    if (n==2 or n==3)
+        return true;
+    if (n%2==0 or n%3==0)
+        return false;
+    for(int i=5;i*i<=n;i+=6) {
+        if(n%i==0 or n%(i+2)==0)
+            return false;
+   }
+   return true;
+}
+ 
+//Finding sum of digits *************************************************************
+int sumofdigits(int n) {
+    int ans=0;
+    while (n>0) {
+        ans=(ans+ n%10);
+        n/=10;
+    }
+    return ans;
+}
+ 
+//Finding a^b *************************************************************************
+int power(int a,int b) {
+    int res = 1;
+    while (b > 0) {
+        if (b & 1)
+            res = (res * a);
+        a = (a * a);
+        b = b >> 1;
+    }
+    return res;
+}
+ 
+int powermod(int a, int b, int mod) {
+    int res = 1;
+    while (b > 0) {
+        if (b & 1)
+            res = (res * a) % mod;
+        a = (a * a) % mod;
+        b = b >> 1;
+    }
+    return res;
+}
+ 
+//Finding MEX ****************************************************************************
+int findMEX(vector<int>v) {  //MEX of {1,2,3,4} is 0
+    int n=v.size();
+    map<int,int>mp;
+    for(int i=0;i<n;i++) {
+        mp[v[i]]++;
+    }
+    for(int i=0;i<=n+1;i++) {
+        if(mp[i]==0){
+        return i;
+        }
+    }
+    return n+1;
+}
+ 
+//***************************************************Begin********************************************************
+ 
+void solve(){
+    int n;
+    cin>>n;
+    vector<int>arr(n);
+    For(i,0,n)
+        cin>>arr[i];
+    
+    if(n%2){
+        cout<<-1<<endl;
+        return;
+    }
+    
+    vector<pair<int,int>>v;
+    for(int i=0;i<n;i+=2){
+        int a=arr[i],b=arr[i+1];
+        if(a==b){
+            v.push_back({i+1,i+2});
+        }
+        else{
+            v.pb({i+1,i+1});
+            v.pb({i+2,i+2});
+        }
+    }
+    
+    cout<<v.sz<<endl;
+    for(auto it:v){
+        cout<<it.first<<" "<<it.second<<endl;
+    }
+}
+int32_t main(){
+    //define precomputations below
+    
+    
+    //precomputation definations ended
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
