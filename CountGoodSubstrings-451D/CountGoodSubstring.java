@@ -1,6 +1,6 @@
 // https://codeforces.com/problemset/problem/451/D
 
-public class Count_Good_Substrings {
+public class CountGoodSubstrings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
