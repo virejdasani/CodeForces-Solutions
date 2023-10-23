@@ -1,3 +1,5 @@
+# Problem link - https://codeforces.com/problemset/problem/1328/A
+
 #include <stdio.h>
 
 int main()
